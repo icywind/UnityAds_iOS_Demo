@@ -1,0 +1,57 @@
+# Xcode
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcuserstate
+*.xcscmblueprint
+*.xcscheme
+xcuserdata/
+
+# Build
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.framework
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Carthage
+Carthage/Build/
+Carthage/DerivedData/
+
+# macOS
+.DS_Store
+*.xcuserdatad
+*.xcworkspace/xcuserdata/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Others
+*.log
+*.pyc
+.env
+.env.local

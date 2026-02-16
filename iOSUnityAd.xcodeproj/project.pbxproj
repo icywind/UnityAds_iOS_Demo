@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		223C8E3DF21C2261FDBC248A /* Pods_iOSUnityAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FD1C23BFE00B5AE451D91B /* Pods_iOSUnityAd.framework */; };
+		BA14FCF6E93E9CA26336EE6F /* Pods_iOSUnityAdTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894A29944457677FCB439B9E /* Pods_iOSUnityAdTests.framework */; };
+		D650DDA626E9A3D0573CF76D /* Pods_iOSUnityAd_iOSUnityAdUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F9C9220A24BB435A8B6801 /* Pods_iOSUnityAd_iOSUnityAdUITests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		362E08182F42FA6600385FDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		205133BA3A266067DF00E125 /* Pods-iOSUnityAd-iOSUnityAdUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUnityAd-iOSUnityAdUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSUnityAd-iOSUnityAdUITests/Pods-iOSUnityAd-iOSUnityAdUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23F9C9220A24BB435A8B6801 /* Pods_iOSUnityAd_iOSUnityAdUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSUnityAd_iOSUnityAdUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31EF4EB697F08DFA2ECCC37A /* Pods-iOSUnityAd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUnityAd.debug.xcconfig"; path = "Target Support Files/Pods-iOSUnityAd/Pods-iOSUnityAd.debug.xcconfig"; sourceTree = "<group>"; };
 		362E080A2F42FA6400385FDD /* iOSUnityAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSUnityAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		362E08172F42FA6600385FDD /* iOSUnityAdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSUnityAdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		362E08212F42FA6600385FDD /* iOSUnityAdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSUnityAdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		894A29944457677FCB439B9E /* Pods_iOSUnityAdTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSUnityAdTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9822FAB7205DCE70005B836 /* Pods-iOSUnityAd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUnityAd.release.xcconfig"; path = "Target Support Files/Pods-iOSUnityAd/Pods-iOSUnityAd.release.xcconfig"; sourceTree = "<group>"; };
+		AC3AB235A961D0B9672BB76D /* Pods-iOSUnityAd-iOSUnityAdUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUnityAd-iOSUnityAdUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSUnityAd-iOSUnityAdUITests/Pods-iOSUnityAd-iOSUnityAdUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ADBB05B2FE13AAB0F5D2A2E2 /* Pods-iOSUnityAdTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUnityAdTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSUnityAdTests/Pods-iOSUnityAdTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF417BC532E520032288E2A1 /* Pods-iOSUnityAdTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSUnityAdTests.release.xcconfig"; path = "Target Support Files/Pods-iOSUnityAdTests/Pods-iOSUnityAdTests.release.xcconfig"; sourceTree = "<group>"; };
+		D0FD1C23BFE00B5AE451D91B /* Pods_iOSUnityAd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSUnityAd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223C8E3DF21C2261FDBC248A /* Pods_iOSUnityAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA14FCF6E93E9CA26336EE6F /* Pods_iOSUnityAdTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D650DDA626E9A3D0573CF76D /* Pods_iOSUnityAd_iOSUnityAdUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +97,8 @@
 				362E081A2F42FA6600385FDD /* iOSUnityAdTests */,
 				362E08242F42FA6600385FDD /* iOSUnityAdUITests */,
 				362E080B2F42FA6400385FDD /* Products */,
+				4C9D763192FA500546B774C9 /* Pods */,
+				B69165D7C2EB6F9099F69936 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +112,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4C9D763192FA500546B774C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31EF4EB697F08DFA2ECCC37A /* Pods-iOSUnityAd.debug.xcconfig */,
+				A9822FAB7205DCE70005B836 /* Pods-iOSUnityAd.release.xcconfig */,
+				205133BA3A266067DF00E125 /* Pods-iOSUnityAd-iOSUnityAdUITests.debug.xcconfig */,
+				AC3AB235A961D0B9672BB76D /* Pods-iOSUnityAd-iOSUnityAdUITests.release.xcconfig */,
+				ADBB05B2FE13AAB0F5D2A2E2 /* Pods-iOSUnityAdTests.debug.xcconfig */,
+				CF417BC532E520032288E2A1 /* Pods-iOSUnityAdTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B69165D7C2EB6F9099F69936 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FD1C23BFE00B5AE451D91B /* Pods_iOSUnityAd.framework */,
+				23F9C9220A24BB435A8B6801 /* Pods_iOSUnityAd_iOSUnityAdUITests.framework */,
+				894A29944457677FCB439B9E /* Pods_iOSUnityAdTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 362E082B2F42FA6600385FDD /* Build configuration list for PBXNativeTarget "iOSUnityAd" */;
 			buildPhases = (
+				CBAD8238DA3DCC0A49121093 /* [CP] Check Pods Manifest.lock */,
 				362E08062F42FA6400385FDD /* Sources */,
 				362E08072F42FA6400385FDD /* Frameworks */,
 				362E08082F42FA6400385FDD /* Resources */,
+				A4DB722545559871CFDD4F92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,8 +156,6 @@
 				362E080C2F42FA6400385FDD /* iOSUnityAd */,
 			);
 			name = iOSUnityAd;
-			packageProductDependencies = (
-			);
 			productName = iOSUnityAd;
 			productReference = 362E080A2F42FA6400385FDD /* iOSUnityAd.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 362E082E2F42FA6600385FDD /* Build configuration list for PBXNativeTarget "iOSUnityAdTests" */;
 			buildPhases = (
+				BEC1AC0352ED7B7564C3D495 /* [CP] Check Pods Manifest.lock */,
 				362E08132F42FA6600385FDD /* Sources */,
 				362E08142F42FA6600385FDD /* Frameworks */,
 				362E08152F42FA6600385FDD /* Resources */,
@@ -134,8 +178,6 @@
 				362E081A2F42FA6600385FDD /* iOSUnityAdTests */,
 			);
 			name = iOSUnityAdTests;
-			packageProductDependencies = (
-			);
 			productName = iOSUnityAdTests;
 			productReference = 362E08172F42FA6600385FDD /* iOSUnityAdTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 362E08312F42FA6600385FDD /* Build configuration list for PBXNativeTarget "iOSUnityAdUITests" */;
 			buildPhases = (
+				D464440E329C9C704D02A3DB /* [CP] Check Pods Manifest.lock */,
 				362E081D2F42FA6600385FDD /* Sources */,
 				362E081E2F42FA6600385FDD /* Frameworks */,
 				362E081F2F42FA6600385FDD /* Resources */,
+				5D56F41E40230B811FF59514 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,8 +201,6 @@
 				362E08242F42FA6600385FDD /* iOSUnityAdUITests */,
 			);
 			name = iOSUnityAdUITests;
-			packageProductDependencies = (
-			);
 			productName = iOSUnityAdUITests;
 			productReference = 362E08212F42FA6600385FDD /* iOSUnityAdUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +272,117 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D56F41E40230B811FF59514 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSUnityAd-iOSUnityAdUITests/Pods-iOSUnityAd-iOSUnityAdUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSUnityAd-iOSUnityAdUITests/Pods-iOSUnityAd-iOSUnityAdUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSUnityAd-iOSUnityAdUITests/Pods-iOSUnityAd-iOSUnityAdUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4DB722545559871CFDD4F92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSUnityAd/Pods-iOSUnityAd-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSUnityAd/Pods-iOSUnityAd-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSUnityAd/Pods-iOSUnityAd-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC1AC0352ED7B7564C3D495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSUnityAdTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBAD8238DA3DCC0A49121093 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSUnityAd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D464440E329C9C704D02A3DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSUnityAd-iOSUnityAdUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		362E08062F42FA6400385FDD /* Sources */ = {
@@ -307,7 +460,7 @@
 				DEVELOPMENT_TEAM = XQ9J2D9T83;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -371,7 +524,7 @@
 				DEVELOPMENT_TEAM = XQ9J2D9T83;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -392,6 +545,7 @@
 		};
 		362E082C2F42FA6600385FDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31EF4EB697F08DFA2ECCC37A /* Pods-iOSUnityAd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -424,6 +578,7 @@
 		};
 		362E082D2F42FA6600385FDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9822FAB7205DCE70005B836 /* Pods-iOSUnityAd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +611,7 @@
 		};
 		362E082F2F42FA6600385FDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADBB05B2FE13AAB0F5D2A2E2 /* Pods-iOSUnityAdTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +634,7 @@
 		};
 		362E08302F42FA6600385FDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF417BC532E520032288E2A1 /* Pods-iOSUnityAdTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -500,6 +657,7 @@
 		};
 		362E08322F42FA6600385FDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205133BA3A266067DF00E125 /* Pods-iOSUnityAd-iOSUnityAdUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -520,6 +678,7 @@
 		};
 		362E08332F42FA6600385FDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3AB235A961D0B9672BB76D /* Pods-iOSUnityAd-iOSUnityAdUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
