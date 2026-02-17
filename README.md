@@ -1,7 +1,9 @@
 # UnityAds SDK Integration - iOS Demo App
 
 This project demonstrates how to integrate Unity Ads SDK into an iOS SwiftUI application.
-
+<p align="Left">
+  <img src="Docs/Screenshots.png" alt="UnityAds App Screenshots" style="max-width:100%; height:auto;">
+</p>
 ## Requirements
 
 - **iOS**: 15.0+
