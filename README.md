@@ -111,7 +111,7 @@ adsManager.showAd()
 
 ### Game ID
 
-The demo uses Unity's test Game ID: `1487511`
+The demo uses Unity's test Game ID: `3003911`
 
 For production, replace with your own Game ID from [Unity Ads Dashboard](https://dashboard.unity3d.com/)
 
